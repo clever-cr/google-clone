@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./build/tailwind.css" />
+  </head>
+  <body>
+ 
+      <div class="flex items-center justify-between lg:justify-end">
+    <div class=" flex justify-start space-x-4 px-4 lg:hidden">
+      <i class="bi bi-list"></i>
+      <a class=" hover:text-[#1A73E8] hover:underline" href="">All</a>
+      <a class=" hover:text-[#1A73E8] hover:underline" href="">Images</a>
+    </div>
+      <div class="  lg:flex flex-row justify-end items-center p-5 space-x-6 text-sm">
+      <div class="hidden lg:block hover:underline"href="#">Gmail</div>
+      <div class="hidden lg:block hover:underline" href="#">Images</div>
+
+      <i class="bi bi-grid-3x3-gap-fill text-gray-500 "></i> 
+
+     
+      <button class="bg-[#1A73E8] text-white px-[23px] py-[9px] rounded-md text-center hover:shadowm-md hover:bg-blue-600">sign in</button>
+   </div>
+    </div>
+    <div class=" flex flex-col items-center space-y-8 mt-12 px-2">
+        
+       
+        <img class="w-2/5 lg:w-auto" src="img/logo.png">
+        <div class="w-full  px-4 flex items-center justify-between lg:w-2/5 rounded-3xl lg:px-4 border-[1px] hover:shadow-lg hover:border-none ">
+          <svg class="w-5  h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+         <input  class="flex-1 p-2 outline-none" type="search" id="gsearch" name="gsearch">
+        <img class="hidden   lg:block lg:w-8 lg:h-8 " src="img/Google_Icon.webp">
+        <img class="w-6 h-8 lg:hidden"src="img/mic.svg">
+        </div>
+       
+  <div class="hidden lg:block space-x-2 ">
+<button class="bg-gray-100 px-4 py-2 rounded-sm hover:border-2">Google Search</button>
+<button class="bg-gray-100 px-4 py-2 rounded-sm hover:border-2">I'm Feeling Lucky</button>
+</div>
+<div class="flex items-center space-x-3 text-sm"> 
+  <p class="">Google offered in:</p>
+  <a class="text-blue-900 hover:underline " href="">French</a>
+  <a class="text-blue-900 hover:underline" href="">Kinyarwanda</a>
+  <a class="text-blue-900 hover:underline" href="">kiswahili</a>
+</div>
+</div>
+<footer class="bg-gray-100  text-gray-500 fixed bottom-0 w-full space-y-7 py-2">
+  <p class="px-8">Rwanda</p>
+<h2  class="border-b-[1px] border-gray-300 px-0" ></h1>
+<h1  class="border-b-[1px] border-gray-300 px-0  lg:hidden" ></h1>
+<div class=" space-y-6 flex flex-col lg:flex-row items-center justify-between px-8 py-2 lg:space-y-0 ">
+  <div class="space-x-2 text-sm flex lg:hidden">
+    <a hrf="">Dark theme:off</a>
+    <a href="">settings</a>
+    <a href="">privacy</a>
+    <a href="">Terms</a>
+  </div>
+  <div class="space-x-6 flex ">
+<a class="hover:underline" href="">About</a>
+<a class="hover:underline" href="">Advertising</a>
+<a class="hover:underline" href="">Business</a>
+<a class="hidden lg:block hover:underline" href="">How Search works</a>
+  </div>
+  <div class="hidden lg:block lg:space-x-6 ">
+    <a class="hover:underline" href="">Privacy</a>
+    <a class="hover:underline" href="">Terms</a>
+    <a class="hover:underline" href="">Settings</a>
+  </div>
+  </div>
+</footer>
+  </body>
+</html>
